@@ -1,0 +1,20 @@
+function confirmacion() {
+    var confirmar=""
+    do {
+        var confirmar=prompt("¿Quieres volver a intentarlo?(Y/N)")
+        console.log(confirmar)
+        confirmar=confirmar.toLowerCase()
+        
+        if ((confirmar!="y")&(confirmar!="n")) {
+            alert("Error,\nVuelve a intentarlo")
+        }
+    } while ((confirmar!="y")&(confirmar!="n"));
+    if (confirmar=="y"){
+        
+        return true
+    } else{
+        alert("Finalizando programa")
+        return false
+    }
+    
+}
