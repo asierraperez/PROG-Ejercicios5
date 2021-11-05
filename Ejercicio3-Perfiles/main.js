@@ -1,11 +1,5 @@
 function main() {
-    var Perfil = function () {
-        var nombre = ""
-        var apellidos = ""
-        var direccion = ""
-        var tlfno = ""
-        var email = ""
-    }
+    var perfil=declarar_perfil()
     var user = new Perfil();
     var menu_op;
     var menu_datos;
@@ -13,7 +7,6 @@ function main() {
     var usuario = []
     var tabla = ""
     var confirmar_datos, confirmar_op = false
-
     entrada(user, usuario)
     do {
         menu_op = prompt("¿Que quieres hacer?\n1.-Visualizar tus datos\n2.-Cambiar tus datos")
@@ -37,7 +30,6 @@ function main() {
         }
         confirmar_op = confirmar()
     } while (confirmar_op == false);
-
 }
 
 main()
