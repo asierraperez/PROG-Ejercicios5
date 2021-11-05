@@ -5,9 +5,12 @@ function main() {
     var obj_escultura = declarar_object_hijo(arte, 2)
     var obj_pintura = declarar_object_hijo(arte, 3)
     var obj_teatro = declarar_object_hijo(arte, 4)
+    
+    var menu=0
 
     while (menu <=4) {
-        var menu = prompt("¿Que quieres hacer?\n1.-Cine\n2.-Escultura\n3.-Pintura\n4.-Teatro\n5.-Salir")
+        
+        menu = prompt("¿Que quieres hacer?\n1.-Cine\n2.-Escultura\n3.-Pintura\n4.-Teatro\n5.-Salir")
         menu = parseInt(menu)
         switch (menu) {
             case 1:

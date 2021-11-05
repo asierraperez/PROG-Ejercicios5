@@ -1,6 +1,6 @@
 function main() {
     var perfil=declarar_perfil()
-    var user = new Perfil();
+    var user = new perfil();
     var menu_op;
     var menu_datos;
     var datos = ["Nombre ", "Apellidos ", "Direccion ", "Telefono ", "Email"]
