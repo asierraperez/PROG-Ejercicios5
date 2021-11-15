@@ -1,3 +1,8 @@
+/**
+ * Selecciona el dato a modificar
+ * @param {number} menu_datos - menu secundario, dato del perfil a modificar
+ * @param {perfil} user - Datos del usuario
+ */
 function cambio_datos(menu_datos, user) {
     switch (menu_datos) {
         case 1:
@@ -18,9 +23,9 @@ function cambio_datos(menu_datos, user) {
         default:
             alert("Error,\nDato introducido no valido, intentalo de nuevo")
             break;
-           
+
     }
-    
+
 
 
 }

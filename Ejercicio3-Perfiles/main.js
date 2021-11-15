@@ -1,11 +1,44 @@
 function main() {
-    var perfil=declarar_perfil()
+    /**
+     * Objeto con los tipos de dato de cada perfil
+     * @type {object}
+     */
+    var perfil = declarar_perfil()
+    /**
+     * variable de tipo perfil
+     * @type {perfil}
+     */
     var user = new perfil();
+    /**
+     * menu principal, operacion a realizar
+     * @type {number}
+     */
     var menu_op;
+    /**
+     * menu secundario, dato del perfil a modificar
+     * @type {number}
+     */
     var menu_datos;
+    /**
+     * array con el tipo de los datos de cada usuario
+     * @type {Array}
+     */
     var datos = ["Nombre ", "Apellidos ", "Direccion ", "Telefono ", "Email"]
+    /**
+     * array  que guarda los diferentes usuarios
+     * @type {Array}
+     */
     var usuario = []
+    /**
+     * almacena los datos para mostrarlos por pantalla
+     * @type {string}
+     */
     var tabla = ""
+    /**
+     * confirmacione de si se quiere realizar alguna otra operación
+     * true=> finalizar ;false=> repetir operación
+     * @type {boolean}
+     */
     var confirmar_datos, confirmar_op = false
     entrada(user, usuario)
     do {
