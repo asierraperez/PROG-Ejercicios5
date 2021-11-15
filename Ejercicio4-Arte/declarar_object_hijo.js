@@ -1,3 +1,9 @@
+/**
+ * genera los objetos hijo
+ * @param {object} arte - objeto padre
+ * @param {number} selector - seleccion del objeto a generar
+ * @returns 
+ */
 function declarar_object_hijo(arte, selector) {
     switch (selector) {
         //Declarar objeto hijo cine
