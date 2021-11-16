@@ -6,6 +6,7 @@ function confirmar() {
     do {
         /**
          * recoge la elección del usuario
+         * @type {string}
          */
         var confirmar = prompt("¿Quieres hacer alguna otra operacion?(Y/N)")
     } while ((confirmar != "y") & (confirmar != "n"));

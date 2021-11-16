@@ -21,7 +21,7 @@ function main() {
     var menu_datos;
     /**
      * array con el tipo de los datos de cada usuario
-     * @type {Array}
+     * @type {Array<string>}
      */
     var datos = ["Nombre ", "Apellidos ", "Direccion ", "Telefono ", "Email"]
     /**

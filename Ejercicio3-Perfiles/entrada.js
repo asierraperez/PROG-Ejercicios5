@@ -1,7 +1,7 @@
 /**
  * Pregunta al usuario los datos del perfil
  * @param {perfil} user - datos del usuario
- * @param {array} usuario - datos del usuario por duplicado;;
+ * @param {array<string>} usuario - datos del usuario por duplicado;;
  */
 function entrada(user, usuario) {
     //lo de duplicar los datos fue la solución que se me ocurrio, ahora usaría un bucle For...In
